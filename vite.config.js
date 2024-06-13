@@ -27,7 +27,6 @@ export default defineConfig(({ mode }) => {
 		},
 		resolve: {
 			alias: {
-				$fonts: resolve('./fonts'),
 				"#enums": resolve('./src/enums')
 			}
 		},
