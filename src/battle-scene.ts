@@ -52,7 +52,7 @@ import * as Overrides from "./overrides";
 import {InputsController} from "./inputs-controller";
 import {UiInputs} from "./ui-inputs";
 import { NewArenaEvent } from "./events/battle-scene";
-import { Abilities, BattleSpec, Biome, EaseType, ExpNotification, MoneyFormat, Moves, PlayerGender, UiTheme, Species} from "#enums/";
+import { Abilities, BattleSpec, Biome, EaseType, ExpNotification, MoneyFormat, Moves, PlayerGender, UiTheme, Species} from "#enums";
 import ArenaFlyout from "./ui/arena-flyout";
 
 export const bypassLogin = import.meta.env.VITE_BYPASS_LOGIN === "1";
