@@ -1,17 +1,12 @@
-import { Species } from "./enums/species";
-import { Abilities } from "./enums/abilities";
-import { Biome } from "./enums/biome";
-import { Moves } from "./enums/moves";
+import { Species, Abilities, Biome, Moves, BerryType, TimeOfDay } from "#enums/";
 import { WeatherType } from "./data/weather";
 import { Variant } from "./data/variant";
-import { BerryType } from "./enums/berry-type";
 import { TempBattleStat } from "./data/temp-battle-stat";
 import { Nature } from "./data/nature";
 import { Type } from "./data/type";
 import { Stat } from "./data/pokemon-stat";
 import { PokeballCounts } from "./battle-scene";
 import { PokeballType } from "./data/pokeball";
-import {TimeOfDay} from "#enums/time-of-day";
 import { Gender } from "./data/gender";
 import { StatusEffect } from "./data/status-effect";
 import { modifierTypes } from "./modifier/modifier-type";
